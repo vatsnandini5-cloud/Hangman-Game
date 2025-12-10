@@ -1,137 +1,145 @@
-🎮 Hangman Game – Project Documentation
-🏆 CodeAlpha Python Programming Internship
-📌 Task 1 – Word Guessing Game
-✨ Introduction
+🎮 Hangman Game
+🏆 CodeAlpha Python Programming Internship – Task 1
+📌 Introduction
 
-Welcome to the Hangman Game — a simple yet engaging console-based word-guessing project built as part of the CodeAlpha Python Programming Internship (10 Dec 2025 – 10 Jan 2026).
+This project is my submission for Task 1 – Hangman Game under the CodeAlpha Python Programming Internship.
+The goal of the task is to build a simple text-based Hangman Game using only core Python concepts.
 
-The aim of this task was to develop a fun game using only core Python concepts, focusing on logic building and user interaction.
+🎯 Task Requirements (As per CodeAlpha PDF)
 
-🧠 Project Overview
+Use a small predefined word list
 
-Hangman is a classic word-guessing challenge where the player uncovers a hidden word by guessing letters one at a time. But be careful — you only get 6 wrong attempts before the game ends! 😬
+Limit incorrect guesses to 6
 
-This project highlights:
+No file or API usage
 
-🧩 Logic building
+Basic console input/output
 
-🎛️ User input handling
+Use: random, loops, if-else, strings, lists
 
-🔁 Loops & conditions
+🧠 Features
 
-🎲 Random module usage
+Random word selection 🎲
 
-🎯 Objectives
+Masked display (_ _ _ _)
 
-The game achieves the following goals:
+Single-letter guessing 🔡
 
-🎯 Pick a random word from a predefined list
+Tracks correct & incorrect attempts ❌
 
-🕶️ Display the masked format (_ _ _ _)
+Prevents repeated guesses
 
-⌨️ Take letter-by-letter guesses
+Win/Loss detection 🏆💀
 
-📝 Track guessed characters
-
-❌ Allow only six wrong attempts
-
-🏆 Detect win or loss
-
-💬 Show meaningful messages to the player
+Clean console interaction
 
 🔧 Technologies Used
 
 Python 3
 
-Built-in Libraries:
+Built-in random module
 
-random → for word selection
+Console-based I/O
 
-Core Python Concepts:
+🕹 How the Game Works
 
-Strings
+Program selects a random word
 
-Lists
+User sees blanks
 
-while loops
+User guesses letters
 
-Conditional logic
+Correct guesses → revealed
 
-Input validation
+Wrong guesses → attempts reduce
 
-🎮 Game Flow
-
-Here’s the journey the player takes:
-
-👋 Game starts and welcomes the user
-
-🎲 A random secret word is selected
-
-😶 The user sees empty placeholders (_ _ _ _)
-
-🔡 Player enters guesses
-
-✔️ Correct guess → letter revealed
-
-❌ Incorrect guess → attempts decrease
-
-💥 Game ends when:
-
-All letters are guessed → Victory! 🏆
-
-Attempts reach zero → Game Over 💀
-
-🕵️ The secret word is revealed at the end
-
-⭐ Features
-
-🎲 Random word generation
-
-💬 Clean and simple console interaction
-
-🔒 Prevention of repeated guesses
-
-🛠️ Input validation
-
-🏁 Win/Loss detection
-
-🧠 Beginner-friendly logic flow
+Game ends with win or loss message
 
 🚀 How to Run
-Step 1: Clone the repository
-git clone https://github.com/vatsnandini5-cloud/Hangman-Game
+git clone 🎮 Hangman Game
+🏆 CodeAlpha Python Programming Internship – Task 1
+📌 Introduction
 
-Step 2: Run the Python file
+This project is my submission for Task 1 – Hangman Game under the CodeAlpha Python Programming Internship.
+The goal of the task is to build a simple text-based Hangman Game using only core Python concepts.
+
+🎯 Task Requirements (As per CodeAlpha PDF)
+
+Use a small predefined word list
+
+Limit incorrect guesses to 6
+
+No file or API usage
+
+Basic console input/output
+
+Use: random, loops, if-else, strings, lists
+
+🧠 Features
+
+Random word selection 🎲
+
+Masked display (_ _ _ _)
+
+Single-letter guessing 🔡
+
+Tracks correct & incorrect attempts ❌
+
+Prevents repeated guesses
+
+Win/Loss detection 🏆💀
+
+Clean console interaction
+
+🔧 Technologies Used
+
+Python 3
+
+Built-in random module
+
+Console-based I/O
+
+🕹 How the Game Works
+
+Program selects a random word
+
+User sees blanks
+
+User guesses letters
+
+Correct guesses → revealed
+
+Wrong guesses → attempts reduce
+
+Game ends with win or loss message
+
+🚀 How to Run
+git clone https://github.com/vatsnandini5-cloud/Hangman-Game
+cd Hangman-Game
 python hangman.py
 
 🔮 Future Improvements
 
-Here are some enhancements planned for future versions:
+Hint system
 
-💡 Add a hint system
+Full-word guessing
 
-📝 Allow full-word guessing
+Score tracking
 
-⭐ Introduce scoring
+Word list from file
 
-📁 Load words from an external file
+GUI version (Tkinter)
+cd Hangman-Game
+python hangman.py
 
-🖥️ Build a GUI version (Tkinter / PyQt)
+🔮 Future Improvements
 
-🏁 Conclusion
+Hint system
 
-This project successfully fulfills Task 1 of the CodeAlpha internship.
-The Hangman Game strengthens:
+Full-word guessing
 
-🧠 Logical thinking
+Score tracking
 
-🛠️ Problem-solving
+Word list from file
 
-🐍 Core Python fundamentals
-
-A simple game — but a powerful learning experience!
-
-🙌 Acknowledgment
-
-Huge thanks to CodeAlpha for providing a platform to learn, explore, and build practical applications.
-This project marks a meaningful step in my Python development journey. 🚀
+GUI version (Tkinter)
