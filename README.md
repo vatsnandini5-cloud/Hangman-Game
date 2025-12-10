@@ -99,7 +99,7 @@ Attempts reach zero → Game Over 💀
 
 🚀 How to Run
 Step 1: Clone the repository
-git clone https://github.com/vatsnandini5-cloud/CodeAlpha_HangmanGame
+git clone https://github.com/vatsnandini5-cloud/Hangman-Game
 
 Step 2: Run the Python file
 python hangman.py
